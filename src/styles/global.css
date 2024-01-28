@@ -35,6 +35,10 @@
     padding-block-end: 3rem;
   }
   
+p{
+  margin-block-end: 1rem;
+}
+
   .project-title {
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 500;
