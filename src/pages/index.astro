@@ -1,0 +1,68 @@
+---
+import Header from '../components/header.astro';
+import Layout from '../layouts/Layout.astro';
+import Footer from '../components/footer.astro';
+import BlogPost from '../components/BlogPost.astro';
+import Card from '../components/Card.astro';
+---
+
+<Header/>
+
+<Layout title="Shankar UX">
+	<main>
+
+		
+		<article>
+
+			<h1 class="headline">Hello! Welcome to my personal website</span></h1>
+
+			<!-- About -->
+			<p class="about">
+				<p class="about"><span class="callout"> I am Shankar, an interaction designer on Gmail.</span> This website is my personal corner on the internet. I create simple interfaces for complex problems. Right now, I am into elevating my typography game and building things on the web. Outside of interface design, I spend my time watching too much TV and reading books. When I am not working or consuming media, I am hanging out with friends.</p>
+			</p>
+
+		</article>
+		
+
+		<!-- Projects section -->  
+		<section class="section-area">
+			<!-- Section header -->
+			<article>
+			<p class="section-title">work</p>
+			</article>  
+		   <article class="project-card-group"> 
+			<!-- Project cards -->
+			<Card
+				href="https://yearinbooks.com/"
+				title="Year in Books"
+				body="A public bookshelf to track what I am reading. Built using Astro with my own two hands!"
+			/>
+
+			<Card
+			href="https://yearinbooks.com/"
+			title="Gmail 'Select all' button"
+			body="Worked on bringing the 'Select all' button to Gmail's mobile apps"
+		/>
+
+		<Card
+		href="https://yearinbooks.com/"
+		title="Gmail 'Select all' button"
+		body="Worked on bringing the 'Select all' button to Gmail's mobile apps"
+	/>
+		
+			</article>   
+      
+		</section>
+
+		<BlogPost/>
+
+		<Footer/>
+
+	</main>
+
+
+
+
+
+</Layout>
+

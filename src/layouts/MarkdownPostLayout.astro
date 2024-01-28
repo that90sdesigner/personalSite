@@ -1,0 +1,27 @@
+---
+import '../styles/global.css';
+import Header from '../components/header.astro';
+import Layout from './Layout.astro';
+import Footer from '../components/footer.astro';
+const { frontmatter } = Astro.props;
+
+---
+<Layout/>
+
+<Header/>
+<main>
+
+    <h1 class="headline">{frontmatter.title}</h1>
+    <slot />
+
+</main>
+
+
+<Footer/>
+
+<style>
+    h1{
+        padding-block-end: 3rem;
+    }
+
+</style>

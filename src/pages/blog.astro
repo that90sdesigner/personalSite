@@ -1,0 +1,45 @@
+---
+import Header from '../components/header.astro';
+import Layout from '../layouts/Layout.astro';
+import Footer from '../components/footer.astro';
+import BlogPost from '../components/BlogPost.astro';
+// imports all files that end with .md in content collection
+const allPosts = await Astro.glob('../pages/posts/*.md')
+---
+
+<Layout>
+
+<Header/>
+
+<main>
+
+  <h1 class="headline">Blog</h1>
+
+  <ul>
+    {allPosts.map((post) => 
+     <li>
+        <article class="post-list">
+            <article class="post">
+                <p class="date-stamp">{post.frontmatter.date}</p>
+                <a href={post.url}><p class="post-title">{post.frontmatter.title}</p></a>
+            </article>
+    
+        </article>
+    </li>
+    )
+    }
+  </ul>
+
+</main>
+
+
+<Footer/>
+
+<style>
+  li{
+    list-style: none;
+  }
+</style>
+
+
+
