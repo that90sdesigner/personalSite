@@ -35,9 +35,18 @@
     padding-block-end: 3rem;
   }
   
-p{
-  margin-block-end: 1rem;
-}
+  p{
+  margin-block-end: 1.5rem;
+  }
+
+  
+
+  .profile-img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    padding-block-end: 1.5rem;
+  }
 
   .project-title {
     font-family: 'Alegreya Sans', sans-serif;
@@ -63,6 +72,11 @@ p{
    border-top-width:0;
    border-bottom-width:0;
   }
+
+  p.section-title{
+    margin-block-end: 0;
+  }
+ 
   
   .project-card-group{
     display: grid;
@@ -70,6 +84,11 @@ p{
     column-gap: 1.5rem;
     grid-template-rows: 1fr 1fr;
     row-gap: 1.5rem;
+  }
+
+  .project-card-group p{
+
+    margin-block-end: 0;
   }
   
   .callout{
@@ -84,7 +103,7 @@ p{
   
   .post{
     border-bottom: 1px solid #E6E6E6;
-    padding-block: 1rem;
+    /* padding-block: 1rem; */
   }
   
   .post:first-child{
@@ -105,12 +124,16 @@ p{
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 500;
   }
+
   
   /* responsive behavior */
   
   @media (max-width: 700px){
     /* Change project card behavior  */
-    
+  
+  main{
+    margin-inline: 5vw;
+  }  
     
   .project-card-group{
     display: block;

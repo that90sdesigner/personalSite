@@ -4,6 +4,9 @@ import Layout from '../layouts/Layout.astro';
 import Footer from '../components/footer.astro';
 import BlogPost from '../components/BlogPost.astro';
 import Card from '../components/Card.astro';
+// import the Image component and the image
+import { Image } from 'astro:assets';
+import myImage from "../assets/shankar_profile.jpeg"; // Image is 772x1018
 ---
 
 <Header/>
@@ -14,11 +17,13 @@ import Card from '../components/Card.astro';
 		
 		<article>
 
+			<Image class="profile-img" src={myImage} alt="shankar's profile image." />
+
 			<h1 class="headline">Hello! Welcome to my personal website</span></h1>
 
 			<!-- About -->
 			<p class="about">
-				<p class="about"><span class="callout"> I am Shankar, an interaction designer on Gmail.</span> This website is my personal corner on the internet. I create simple interfaces for complex problems. Right now, I am into elevating my typography game and building things on the web. Outside of interface design, I spend my time watching too much TV and reading books. When I am not working or consuming media, I am hanging out with friends.</p>
+				<span class="callout"> I am Shankar, an interaction designer on Gmail.</span> This website is my personal corner on the internet. I create simple interfaces for complex problems. Right now, I am into elevating my typography game and building things on the web. Outside of interface design, I spend my time watching too much TV and reading books. When I am not working or consuming media, I am hanging out with friends.
 			</p>
 
 		</article>
