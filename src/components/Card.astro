@@ -5,14 +5,14 @@ interface Props {
 	href: string;
 }
 
-const { href, title, body } = Astro.props;
+const { href, img, title, body } = Astro.props;
 import '../styles/global.css';
 ---
 
 <li>
 	<article class="project-card">
 		<a href={href}>
-		<img src="https://files.mastodon.social/media_attachments/files/109/580/236/787/803/459/original/c64ca5ab3d39c547.png" class="project-img"/>
+		<img src={img}}>
 	<article class="project-content">
 		
 			<p class="project-title">
@@ -32,33 +32,8 @@ import '../styles/global.css';
 
 
 <style>
-
-	li{
-		list-style: none;
+	img{
+		height: auto;
+		width: 100%
 	}
-
-	 .project-card{
-    border: 1px solid #E6E6E6;
-    margin-block-start: 1.5rem;
-	height: 100%;
-	min-height: 300px;
-  }
-  
-  .project-content{
-    padding: 1rem;
-  }
-  
-  .project-img{
-    width: 100%;
-  }
-	.project-card a{
-		text-decoration: none;
-		color: var(--body);
-	}
-
-	.project-card a:visited{
-		text-decoration: none;
-		color: var(--body);
-	}
-	
 </style>

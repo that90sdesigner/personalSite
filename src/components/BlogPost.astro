@@ -9,15 +9,16 @@ const allPosts = await Astro.glob('../pages/posts/*.md')
     <p class="section-title">writing</p>
     <ul>
         {allPosts.map((post) => 
-         <li>
+      
             <article class="post-list">
+                <li>
                 <article class="post">
                     <p class="date-stamp">{post.frontmatter.date}</p>
                     <a href={post.url}><p class="post-title">{post.frontmatter.title}</p></a>
                 </article>
-        
+            </li>
             </article>
-        </li>
+      
         )
         }
       </ul>
@@ -25,14 +26,6 @@ const allPosts = await Astro.glob('../pages/posts/*.md')
 </section>
 
 
-
-    
-
-<style>
-    li{
-        list-style: none;
-    }
-</style>
 
 
 
