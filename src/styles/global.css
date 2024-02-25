@@ -77,10 +77,13 @@
     font-family: 'Alegreya Sans', sans-serif;
     font-size: clamp(1.5rem, 7vw, 3.375rem); 
     line-height: clamp(1.5rem, 7vw, 3.375rem); 
-    padding-block-end: 3rem;
+    padding-block-end: 1.5rem;
     text-wrap: pretty;
+    animation: .4s alternate slidein;
   }
   
+
+ 
 
   .img-section{
     margin-bottom: 1.5rem;
@@ -91,6 +94,7 @@
     height: 100px;
     object-fit: cover;
     border-radius: 1rem;
+    animation: .2s alternate slidein;
   }
 
   .project-title {
@@ -104,6 +108,7 @@
   .about{
     padding-block-end: 4.5rem;
     text-wrap:pretty;
+    animation: .6s ease-in-out slidein;
   }
   
   .section-area{
@@ -234,4 +239,27 @@
     display: block;
   }
     
+  }
+
+
+  /* Animation keyframes */
+
+  /* Slide in */
+
+  @keyframes slidein{
+    from{
+      transform: translateY(1em);
+      transform-origin: top left;
+      opacity: .2;
+    }
+
+    75%{
+
+      transform: translateY(-.02em);
+    }
+
+    100%{
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
