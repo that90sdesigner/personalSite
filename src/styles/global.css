@@ -175,8 +175,10 @@
 }
 
 .project-card:hover p:first-of-type::after{
-  content: "🡕"
-
+  content: "north_east";
+  font-family:"Material Symbols Outlined";
+  font-size: .8rem;
+  position: absolute;
 }
 
   /* Card link styling */
