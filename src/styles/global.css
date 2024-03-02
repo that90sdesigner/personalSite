@@ -64,6 +64,7 @@
 
   .nav a:hover{
     background-color: hsla(22deg, 100%, 62%, .15);
+    
   }
 
   /* Main content */
@@ -82,7 +83,7 @@
     line-height: clamp(1.5rem, 7vw, 3.375rem); 
     padding-block-end: 1.5rem;
     text-wrap: pretty;
-    animation: .2s ease-in-out slidein;
+    animation: .4s ease-out slidein;
 
   }
 
@@ -95,7 +96,7 @@
     height: 100px;
     object-fit: cover;
     border-radius: 1rem;
-    animation: .2s ease-in-out slidein;
+    /* animation: .3s ease-out slidein; */
   }
 
   .project-title {
@@ -109,7 +110,7 @@
   .about{
     padding-block-end: 4.5rem;
     text-wrap:pretty;
-    animation: .2s ease-in-out slidein;
+    animation: .45s ease-out slidein;
   }
   
   .section-area{
