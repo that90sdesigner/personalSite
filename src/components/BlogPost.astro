@@ -5,8 +5,7 @@ const { date, url, title } = Astro.props;
 const allPosts = await Astro.glob('../pages/posts/*.md')
 ---
 
-<section class="section-area">
-    <p class="section-title">writing</p>
+
     <ul>
         {allPosts.map((post) => 
       
@@ -23,7 +22,7 @@ const allPosts = await Astro.glob('../pages/posts/*.md')
         }
       </ul>
 
-</section>
+
 
 
 

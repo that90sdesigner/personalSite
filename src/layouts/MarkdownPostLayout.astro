@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import '../styles/blog.css'
 import Header from '../components/header.astro';
 import Layout from './Layout.astro';
 import Footer from '../components/footer.astro';
@@ -10,8 +11,9 @@ const { frontmatter } = Astro.props;
 
 <Header/>
 <main>
-
-    <h1 class="headline">{frontmatter.title}</h1>
+    <p class="date-stamp">{frontmatter.date}</p>
+    <h1>{frontmatter.title}</h1>
+    
     <slot />
     
     
@@ -19,5 +21,7 @@ const { frontmatter } = Astro.props;
 
 
 </main>
+
+
 
 

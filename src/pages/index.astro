@@ -2,7 +2,6 @@
 import Header from '../components/header.astro';
 import Layout from '../layouts/Layout.astro';
 import Footer from '../components/footer.astro';
-import BlogPost from '../components/BlogPost.astro';
 import Card from '../components/Card.astro';
 // import the Image component and the image
 import { Image } from 'astro:assets';
@@ -28,7 +27,7 @@ import myImage from "../assets/shankar_profile.jpeg"; // Image is 772x1018
 
 			<!-- About -->
 			<p class="about">
-				<span class="callout"> I am Shankar, an interaction designer on Gmail.</span> This website is my personal corner on the internet. Right now, I am into elevating my typography game and building things on the web. Outside of interface design, I spend my time watching too much TV and reading books. When I am not working or consuming media, I am hanging out with friends.
+				<span class="callout"> I am Shankar, an interaction designer on Gmail.</span> This website is my personal corner on the internet. Right now, I am into elevating my typography game and building things on the web. Outside of interface design, I spend my time watching too much TV and <a href="http://yearinbooks.com">reading books</a>. When I am not working or consuming media, I am hanging out with friends.
 			</p>
 
 		</article>
@@ -68,8 +67,6 @@ import myImage from "../assets/shankar_profile.jpeg"; // Image is 772x1018
 			</article>   
       
 		</section>
-
-		<BlogPost/>
 
 		<Footer/>
 

@@ -1,0 +1,30 @@
+/* Style the post title */
+h1{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: var(--callout);
+    line-height: 2.25rem;
+    padding-block-end: 2.25rem;
+    border-bottom:1px dotted var(--callout);
+    margin-block-end:1.5rem;
+  }
+
+
+/* Style the inline headers */  
+
+  h2, h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    color: var(--callout);
+    margin-bottom: .667rem;
+   }
+
+
+
+/* Add some spacing after lists */
+
+  li, p{
+    margin-bottom: 1.5rem;
+  }
+
+
+  
