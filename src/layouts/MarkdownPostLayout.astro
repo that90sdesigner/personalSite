@@ -7,6 +7,10 @@ import Footer from '../components/footer.astro';
 const { frontmatter } = Astro.props;
 
 ---
+<head>
+    <title>Shankar • {frontmatter.title}</title>
+</head>
+
 <Layout/>
 
 <Header/>
