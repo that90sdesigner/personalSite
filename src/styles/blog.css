@@ -30,6 +30,6 @@ h2{
 /* high contrast color for body type */
 
 body{
-    color: var(--callout);
+    color: var(--body);
 }
   

@@ -11,9 +11,11 @@
     font-size: 150%;
 
     /* Define the colors */
-    --body: hsl(22deg, 20%, 50%, 1);
+    --body: hsl(22deg, 20%, 45%, 1);
     --pop: hsl(22deg,100%, 62%, 1);
     --callout: hsl(22deg, 20%, 30%, 1);
+    --tint: hsla(22deg, 100%, 62%, .15);
+    --tint2: hsla(22deg, 100%, 62%, .05);
 
     background: hsla(22deg,100%, 98%, 1);
 
@@ -30,13 +32,19 @@
     margin-block-start: 1rem;
   }  
 
-  /* Link color */
+  /* Links */
 
   a {
     text-decoration: none;
+    color: var(--callout);
+  }
+
+  a:hover{
+    text-decoration: underline;
     color: var(--pop);
   }
  
+  
 
   /* paragraph padding */
 
@@ -50,22 +58,24 @@
     margin-inline:auto;
     padding-block: 1rem;
     padding-inline: .667rem;
-    border: 1px solid var(--pop);
+    border: 2px solid var(--pop);
     border-radius: 100px; 
+    background: var(--tint);
   }
 
   .nav a{
     margin-right: 1rem;
-    color: var(--pop);
+    color: var(--callout);
     font-family: 'REM', sans-serif;
     padding-inline: .75rem;
     padding-block: .75rem;
     border-radius: 1rem;
+    font-weight: 500;
   }
 
   .nav a:hover{
-    background-color: hsla(22deg, 100%, 62%, .15);
-    
+    text-decoration: none;
+    background: var(--tint);
   }
 
   /* Main content */
@@ -77,6 +87,11 @@
   }
   
   /* Define the type */
+
+  .intro{
+    position: relative;
+  }
+
   .headline{
     color: var(--pop);
     font-family: 'Rem', sans-serif;
@@ -86,6 +101,10 @@
     padding-block-end: 1.5rem;
     text-wrap: pretty;
     animation: .4s ease-out slidein;
+    margin-top: -64px;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
   }
 
   .headline-blog-page{
@@ -94,19 +113,27 @@
     font-size: 3.375rem;
     line-height: 3.375rem; 
     padding-block-end: 1.5rem;
+    border-bottom: none;
     text-wrap: pretty;
   }
 
-  .img-section{
-    margin-bottom: 1.5rem;
+  .slant-text{
+    display:inline;
+    font-weight: 900;
+    font-style: italic;
+    background: var(--tint);
   }
 
   .profile-img {
-    width: 100px;
-    height: 100px;
     object-fit: cover;
     border-radius: 1rem;
-    /* animation: .3s ease-out slidein; */
+    margin-bottom: 1.5rem;
+    margin-left: -24px;
+    width: 200px;
+    height:200px;
+    rotate: -2deg;
+    position: relative;
+    z-index: 1; 
   }
 
   .project-title {
@@ -121,6 +148,12 @@
     padding-block-end: 4.5rem;
     text-wrap:pretty;
     animation: .45s ease-out slidein;
+    border-bottom: 1px dotted var(--body);
+  }
+
+  .about:has(a) a{
+    font-weight: 500;
+    text-decoration: underline;
   }
   
   .section-area{
@@ -164,6 +197,7 @@
 	  min-height: 300px;
 	  border-radius: 1rem;
     overflow: clip;
+    background: var(--tint2);
   }
   
   .project-content{
@@ -200,29 +234,44 @@
 
   .callout{
     font-family: 'EB Garamond',serif;
-    font-weight: bold;
+    font-weight: 500;
     color: var(--callout);
   }
   
 
   /* blog post list css*/
+
+ 
+
   .post-list{
     list-style-type: none;
-    padding-block-start: 1.5rem;
+    grid-template-rows: auto;
+    /* padding-block-start: 1.5rem; */
   }
 
-  
-  .post:first-child{
-    padding-block-start:0;
+  .post{
+    /* background: var(--tint); */
+    /* padding: 1rem 1rem 2.25rem; */
+    margin-bottom: 2.25rem;
   }
   
-  .date-stamp{
+  .post-list-date-stamp{
     color: var(--body);
+    background: var(--tint);
     font-family: 'Mate SC',serif;
     font-size: .667rem;
     margin-bottom:0;
+    border-left: 12px solid var(--pop) ;
+    padding: 0 .444rem 0 .444rem;
   }
 
+
+  .post-date-stamp{
+    color: var(--body);
+    font-family: 'Mate SC',serif;
+    font-size: .667rem;
+    margin-bottom: 0;
+  }
   
   .post-title {
     font-family: 'EB Garamond',serif;
@@ -259,6 +308,16 @@
 
   .project-card-group{
     display: block;
+  }
+
+  .headline{
+    margin-top: -48px;
+    line-height: 120%;
+  }
+
+  .profile-img{
+    width: 100px;
+    height: 100px;
   }
     
   }
