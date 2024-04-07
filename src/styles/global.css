@@ -251,6 +251,10 @@
     /* padding-block-start: 1.5rem; */
   }
 
+  .post-list p:hover{
+    color: var(--pop);
+  }
+
   .post{
     /* background: var(--tint); */
     /* padding: 1rem 1rem 2.25rem; */
