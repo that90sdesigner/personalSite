@@ -25,11 +25,22 @@ h2{
     font-weight: 700;
 }
 
+/* Breadcrumb css */
+/* appears in markdownPostLayout */
+
+.breadcrumb{
+  font-family: 'MATE SC', serif;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
 
 
 /* high contrast color for body type */
 
 body{
-    color: var(--body);
+    color: var(--callout);
 }
-  
+
+p{
+  text-wrap: pretty;
+}

@@ -13,8 +13,14 @@ const { frontmatter } = Astro.props;
 
 <Layout/>
 
+
+
 <Header/>
+
 <main>
+    <div class="breadcrumb">
+        <a href="/blog">← all posts</a>
+    </div>
     <p class="post-date-stamp">{frontmatter.date}</p>
     <h1>{frontmatter.title}</h1>
     

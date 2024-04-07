@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My corner on the internet'
 date: apr 6, 2024
-desc: Latest post
+desc: What does it mean to have a home on the internet?
 ---
 
 It is 2024 and personal websites are hardly a thing anymore on the web. As a UI designer, it is both trendy and semi-required to have a portfolio. As such, I have always had a website of some sort. But over the years, I have realized that a website is much more than a portfolio for a hiring manager to look at. A personal website can tell stories. It is a canvas for me to share my stories, my work and perhaps more. 

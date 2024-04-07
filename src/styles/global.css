@@ -58,7 +58,7 @@
     margin-inline:auto;
     padding-block: 1rem;
     padding-inline: .667rem;
-    border: 2px solid var(--pop);
+    /* border: 2px solid var(--pop); */
     border-radius: 100px; 
     background: var(--tint);
   }
@@ -100,8 +100,8 @@
     line-height: clamp(1.5rem, 7vw, 3.375rem); 
     padding-block-end: 1.5rem;
     text-wrap: pretty;
-    animation: .4s ease-out slidein;
-    margin-top: -64px;
+    animation: .6s ease-out slidein;
+    margin-top: -48px;
     opacity: 1;
     position: relative;
     z-index: 2;
@@ -134,6 +134,7 @@
     rotate: -2deg;
     position: relative;
     z-index: 1; 
+    animation: .6s ease-out slidein;
   }
 
   .project-title {
@@ -147,7 +148,7 @@
   .about{
     padding-block-end: 4.5rem;
     text-wrap:pretty;
-    animation: .45s ease-out slidein;
+    animation: .6s ease-out slidein;
     border-bottom: 1px dotted var(--body);
   }
 
@@ -178,6 +179,7 @@
     column-gap: 1.5rem;
     grid-template-rows: 1fr 1fr;
     row-gap: 1.5rem;
+    animation: .6s ease-out slidein;
   }
 
   .project-card-group p{
@@ -311,7 +313,7 @@
   }
 
   .headline{
-    margin-top: -48px;
+    margin-top: -40px;
     line-height: 120%;
   }
 
