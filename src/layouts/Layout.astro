@@ -23,15 +23,5 @@ import '../styles/global.css';
 </head>
 	<body>
 		<slot />
-		<script>
-			const links = document.querySelectorAll('.nav a');
-
-links.forEach(link => {
-  if (link.href === window.location.href) {
-    link.classList.add('selected');
-  }
-});
-
-		</script>
 	</body>
 </html>

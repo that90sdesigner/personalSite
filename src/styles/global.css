@@ -85,10 +85,6 @@
     background: var(--tint);
   }
 
-  .selected{
-    background: var(--tint);
-  }
-
   /* Define the type */
 
   .intro{
