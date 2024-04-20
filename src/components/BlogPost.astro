@@ -5,7 +5,6 @@ const { date, url, title } = Astro.props;
 const allPosts = await Astro.glob('../pages/posts/*.md')
 ---
 
-
     <ul>
         {allPosts.map((post) => 
       
