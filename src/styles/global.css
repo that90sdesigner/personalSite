@@ -52,15 +52,22 @@
     margin-block-end: 1.5rem;
   }
 
+  
+
+  /* Main content */
+  
+  main{
+		max-width: 800px;
+    margin-inline:auto;
+  }
+
   /* website navigation */
   .nav{
-    max-width: 800px;
-    margin-inline:auto;
-    padding-block: 1rem;
-    padding-inline: .667rem;
-    /* border: 2px solid var(--pop); */
-    border-radius: 100px; 
-    background: var(--tint);
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    border-bottom: 1px dotted var(--callout);
+    padding-block-end: .667rem;
   }
 
   .nav a{
@@ -78,18 +85,11 @@
     background: var(--tint);
   }
 
-  /* Main content */
-  
-  main{
-    margin-block-start: 4.5rem;
-		max-width: 800px;
-    margin-inline:auto;
-  }
-  
   /* Define the type */
 
   .intro{
     position: relative;
+    margin-block-start: 4.5rem;
   }
 
   .headline{
@@ -112,6 +112,7 @@
     font-family: 'Rem', sans-serif;
     font-size: 3.375rem;
     line-height: 3.375rem; 
+    margin-block-start: 4.5rem;
     padding-block-end: 1.5rem;
     border-bottom: none;
     text-wrap: pretty;

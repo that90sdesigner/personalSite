@@ -3,15 +3,14 @@ import Header from '../components/header.astro';
 import Layout from '../layouts/Layout.astro';
 import Footer from '../components/footer.astro';
 import BlogPost from '../components/BlogPost.astro';
-// imports all files that end with .md in content collection
-const allPosts = await Astro.glob('../pages/posts/*.md')
 ---
 
 <Layout>
 
-<Header/>
+
 
 <main>
+  <Header/>
 
   <h1 class="headline-blog-page">Blog</h1>
   <BlogPost/>
