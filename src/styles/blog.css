@@ -31,9 +31,15 @@ h2{
 .breadcrumb{
   font-family: 'MATE SC', serif;
   font-size: 1rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
+
+/* post header CSS */
+
+.post-header{
+  margin-top: 4.5rem;
+}
 
 /* high contrast color for body type */
 
