@@ -5,8 +5,6 @@ date: may 12, 2024
 desc: Musings on working at Google
 ---
 
-# Five years at Google 
-
 This April, I completed 5 years at Google. I have been through plenty of good, bad and average moments at this company and I am thankful for all of it. 
 
 ## Shipping stuff 
