@@ -1,9 +1,9 @@
-import { defineConfig } from 'astro/config';
-export default defineConfig({});
+import { default } from 'astro/config';
+// export default defineConfig({});
 
-{
-    site: 'https://www.shankarux.com'
-  }
+// {
+//     site: 'https://www.shankarux.com'
+//   }
 
 // vite.config.js
 export default {
