@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/markdownpostlayout.astro
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My corner on the internet'
 date: apr 6, 2024
 desc: What does it mean to have a home on the internet?

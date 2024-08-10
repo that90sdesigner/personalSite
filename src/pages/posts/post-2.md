@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/markdownpostlayout.astro
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Five years at Google'
 date: may 12, 2024
 desc: Musings on working at Google
