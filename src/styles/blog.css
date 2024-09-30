@@ -47,3 +47,9 @@ p{
   text-wrap: pretty;
   color: var(--callout);
 }
+
+/* images*/
+
+img{
+max-width: 100%;
+}
