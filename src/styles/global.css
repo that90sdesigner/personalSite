@@ -26,7 +26,7 @@
 
   @font-face {
     font-family: 'safiroregular';
-    src: url('../fonts/safiro-regular-webfont.woff2') format('woff2');
+    src: url('../src/assets/fonts/safiro-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -34,14 +34,14 @@
 
 @font-face {
   font-family: 'safiromedium';
-  src: url('../fonts/safiro-medium-webfont.woff2') format('woff2');
+  src: url('../src/assets/fonts/safiro-medium-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'safirobold';
-  src: url('../fonts/safiro-bold-webfont.woff2') format('woff2');
+  src: url('../src/assets/fonts/safiro-bold-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -49,14 +49,14 @@
 
 @font-face {
   font-family: 'safiroregular_italic';
-  src: url('../fonts/safiro-regularitalic-webfont.woff2') format('woff2');
+  src: url('../src/assets/fonts/safiro-regularitalic-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'safirosemibold';
-  src: url('../fonts/safiro-semibold-webfont.woff2') format('woff2');
+  src: url('../src/assets/fonts/safiro-semibold-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
