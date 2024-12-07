@@ -1,3 +1,4 @@
+
 /* Style the post title */
 h1{
     font-family: 'REM', sans-serif;
@@ -13,16 +14,16 @@ h1{
 /* Style the inline headers */  
 
   h2, h3{
-    font-family: 'REM', sans-serif;
-    font-weight: 400;
+    font-family: 'safiromedium', sans-serif;
+    font-weight: normal;
     color: var(--callout);
     margin-bottom: .667rem;
    }
 
 h2{
     margin-block-start:1rem;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 1.25rem;
+    /* font-weight: 500; */
 }
 
 /* Breadcrumb css */
@@ -53,3 +54,4 @@ p{
 img{
 max-width: 100%;
 }
+

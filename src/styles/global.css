@@ -8,7 +8,7 @@
   html{
 
     /* define 1 em */
-    font-size: 150%;
+    font-size: 125%;
 
     /* Define the colors */
     --body: hsl(22deg, 20%, 45%, 1);
@@ -22,13 +22,53 @@
   }
 
 
-    
+/* declare all web fonts */
+
+  @font-face {
+    font-family: 'safiroregular';
+    src: url('../public/fonts/safiro-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'safiromedium';
+  src: url('../public/fonts/safiro-medium-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'safirobold';
+  src: url('../public/fonts/safiro-bold-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'safiroregular_italic';
+  src: url('../public/fonts/safiro-regularitalic-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'safirosemibold';
+  src: url('../public/fonts/safiro-semibold-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* end declaration of web fonts */
     
   body{
     /*body-text */
     color: var(--body);
-    font-family: 'EB Garamond',serif;
-    line-height: 1.5rem;
+    font-family: 'safiroregular',sans-serif;
+    line-height: 1.66rem;
     margin-block-start: 1rem;
   }  
 
@@ -73,7 +113,7 @@
   .nav a{
     margin-right: 1rem;
     color: var(--callout);
-    font-family: 'REM', sans-serif;
+    font-family: 'safiromedium', sans-serif;
     padding-inline: .75rem;
     padding-block: .75rem;
     border-radius: 1rem;
@@ -139,8 +179,7 @@
   }
 
   .project-title {
-    font-family: "REM", sans-serif;
-    font-weight: 500;
+    font-family: "safirosemibold", sans-serif;
     color:var(--callout);
   }
   
@@ -236,7 +275,7 @@
 	}
 
   .callout{
-    font-family: 'EB Garamond',serif;
+    font-family: 'safiroregular', sans-serif;
     font-weight: 500;
     color: var(--callout);
   }
@@ -281,7 +320,7 @@
   }
   
   .post-title {
-    font-family: 'EB Garamond',serif;
+    font-family: 'safiroregular',sans-serif;
     font-weight: 400;
     margin-block-end: 0;
   }
