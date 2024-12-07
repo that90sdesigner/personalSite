@@ -55,3 +55,12 @@ img{
 max-width: 100%;
 }
 
+/* links*/
+
+p > a{
+  color: var(--pop);
+}
+
+em{
+  font-family: 'safiroregular_italic', sans-serif;
+}
