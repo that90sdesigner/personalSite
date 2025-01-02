@@ -15,7 +15,7 @@ The holiday season, especially the last three weeks of the year, is a liminal sp
 
 The beauty of it all? I walk through the liminal space into the new year anyway, hoping that the ball of anxiety becomes a catalyst for growth. 
 
-Here's a YouTube video about the concept of liminal spaces. 
+Here's a YouTube video about the concept of liminal spaces -
 
 [![LIMINAL SPACES YOUTUBE VIDEO](https://img.youtube.com/vi/2T7wSwQtkts/0.jpg)](https://www.youtube.com/watch?v=2T7wSwQtkts)
 
