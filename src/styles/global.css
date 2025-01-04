@@ -298,6 +298,10 @@
     /* padding-block-start: 1.5rem; */
   }
 
+  .post-list:first-child{
+    padding-block-start: 3.375rem;
+  }
+
   .post-list p:hover{
     color: var(--pop);
   }
