@@ -81,7 +81,6 @@
 
   a:hover{
     text-decoration: underline;
-    color: var(--pop);
   }
  
   
@@ -102,27 +101,35 @@
   }
 
   /* website navigation */
-  .nav{
+
+  .header {
     display: flex;
-    justify-content: flex-start;
-    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 0;
     border-bottom: 1px dotted var(--callout);
-    padding-block-end: .667rem;
   }
-
-  .nav a{
-    margin-right: 1rem;
-    color: var(--callout);
+  
+  .logo img {
+    height: 36px; /* Adjust the size of the logo */
+    width: auto;
+    display: block;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3.375rem; /* Add spacing between nav links */
+  }
+  
+  .nav a {
+    margin-right: 0; /* Remove existing margin */
     font-family: 'safiromedium', sans-serif;
-    padding-inline: .75rem;
-    padding-block: .75rem;
-    border-radius: 1rem;
-    font-weight: 500;
   }
 
-  .nav a:hover{
-    text-decoration: none;
-    background: var(--tint);
+  .nav a.active {
+    /* color: var(--pop); */
+    font-family: 'safirosemibold', sans-serif;
   }
 
   /* Define the type */
