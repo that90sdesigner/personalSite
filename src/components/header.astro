@@ -1,6 +1,7 @@
 ---
-const pathname = new URL(Astro.request.url).pathname;
-const currentPath = pathname.slice(1); 
+const pathname = new URL(Astro.request.url).pathname.replace(/\/$/, ""); // Remove trailing slash
+const currentPath = pathname.slice(1); // Remove leading slash
+console.log("Current Path:", currentPath); // Debugging
 ---
 
 <header class="header">
