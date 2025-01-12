@@ -5,7 +5,7 @@ import Footer from '../components/footer.astro';
 import Card from '../components/Card.astro';
 // import the Image component and the image
 import { Image } from 'astro:assets';
-import myImage from "../assets/shankar_profile.jpg"; // Image is 772x1018
+import myImage from "../assets/shankar_profile.jpg"; // import profile image
 ---
 
 
@@ -30,7 +30,7 @@ import myImage from "../assets/shankar_profile.jpg"; // Image is 772x1018
 				</div>
 			 </div>  
 
-			 <img src="/src/assets/shankar_profile.jpg" class="profile-img"/>
+			 <Image src={myImage} class="profile-img" alt="Shankar's profile image" style="width:100%; height:auto" />
 
 		
 		</section>  
