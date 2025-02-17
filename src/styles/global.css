@@ -61,6 +61,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Gimlet Sans Variable Web';
+  src: url(/fonts/GimletSansVariable[ital,opsz,wght].woff2) format('woff2');
+  font-weight: 300 900;
+}
+
 
 /* end declaration of web fonts */
     
@@ -162,13 +168,13 @@
   width: 100%;
   margin: auto;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 4fr 1fr;
   animation: .6s ease-out slidein;
-  /* gap: 24px; */
 }
 
   .intro-content{
-    rotate: -.5deg;
+    /* rotate: -1deg; */
+    margin-top: 1rem;
     padding: 24px;
     background: var(--tint);
     border-radius: .667rem;
@@ -181,7 +187,8 @@
   .profile-img{
     width: 90%;
     border-radius: 8px;
-    rotate: 2deg;
+    rotate: 5deg;
+    margin-left: -1rem;
   }
   
 
@@ -191,11 +198,18 @@
 
   .intro-headline{
     color: var(--pop);
-    font-family: 'Rem', sans-serif;
-    font-weight: 900;
-    font-size: clamp(1.5rem, 5vw, 3.375rem); 
-    line-height: clamp(1.5rem, 5vw, 3.375rem); 
+    font-family: 'Gimlet Sans Variable Web', sans-serif;
+    font-weight: 790;
+    text-transform: lowercase;
+    font-variation-settings: 'opsz' 36;
+    font-feature-settings: "ss04" on, "ss06" on, "calt", "liga", "rlig", "rvrn", "kern", "rclt";
+    font-variation-settings: "ital" 1;
+    font-synthesis: none; 
+    font-size: clamp(2rem, 5vw, 3rem); 
+    letter-spacing: normal;
+    line-height: clamp(1.5rem, 5vw, 3rem); 
     padding-block-end: 1.5rem;
+    padding-inline-end: .667rem;
     text-wrap: pretty;
     opacity: 1;
     z-index: 2;
@@ -203,7 +217,7 @@
 
   .headline-blog-page{
     color: var(--callout);
-    font-family: 'Rem', sans-serif;
+    font-family: 'Gimlet Sans Variable Web', sans-serif;
     font-size: 3.375rem;
     line-height: 3.375rem; 
     margin-block-start: 4.5rem;
