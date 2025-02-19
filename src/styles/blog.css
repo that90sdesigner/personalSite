@@ -64,4 +64,5 @@ p > a{
 
 em{
   font-family: 'safiroregular_italic', sans-serif;
+  font-synthesis: none;
 }

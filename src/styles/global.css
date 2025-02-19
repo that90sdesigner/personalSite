@@ -104,6 +104,12 @@
   }
   
 
+  /* font synthesis for italics text */
+  em{
+    font-family: 'safiroregular_italic', sans-serif;
+    font-synthesis: none;
+  }
+
   /* Main content */
   
   main{
