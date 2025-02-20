@@ -179,11 +179,12 @@
 }
 
   .intro-content{
-    /* rotate: -1deg; */
+    rotate: -1deg;
     margin-top: 1rem;
     padding: 24px;
     background: var(--tint);
     border-radius: .667rem;
+    border: solid var(--pop) 1px;
   }
   
   .about{
@@ -193,6 +194,7 @@
   .profile-img{
     width: 90%;
     border-radius: 8px;
+    border: solid var(--pop) 1px;
     rotate: 5deg;
     margin-left: -1rem;
   }
