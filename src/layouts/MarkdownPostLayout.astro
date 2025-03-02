@@ -1,20 +1,16 @@
 ---
+// MarkdownPostLayout.astro
 import '../styles/global.css';
 import '../styles/blog.css';
 import Header from '../components/header.astro';
 import Layout from './Layout.astro';
 import Footer from '../components/footer.astro';
-const { frontmatter } = Astro.props;
+const { frontmatter, file } = Astro.props;
+const filename = file.split('/').pop().replace('.md', '');
 ---
-<head>
-    <title>Shankar • {frontmatter.title}</title>
-</head>
+<html lang="en">
 
 <Layout/>
-
-
-
-
 
 <main>
     <Header/>
@@ -24,13 +20,12 @@ const { frontmatter } = Astro.props;
     
     <div class="post-header">
         <p class="post-date-stamp">{frontmatter.date}</p>
-        <h1>{frontmatter.title}</h1>
+        <h1 transition:name={`post-title-${filename}`} transition:animate="fade">{frontmatter.title}</h1>
     </div>
     
     <slot/>
     
-    
-<Footer/>
-
-
+    <Footer/>
 </main>
+</html>
+

@@ -22,6 +22,12 @@
   }
 
 
+  /* view transitions everywhere */
+  @view-transition {
+    navigation: auto;
+  }
+
+
 /* declare all web fonts */
 
   @font-face {
@@ -179,7 +185,7 @@
 }
 
   .intro-content{
-    rotate: -1deg;
+    /* rotate: -1deg; */
     margin-top: 1rem;
     padding: 24px;
     background: var(--tint);
@@ -221,6 +227,7 @@
     text-wrap: pretty;
     opacity: 1;
     z-index: 2;
+    text-transform:lowercase;
   }
 
   .headline-blog-page{
@@ -411,6 +418,7 @@
 
   .intro-content{
     width: 100%;
+    rotate: 0deg;
   }
 
   .intro-headline{
@@ -420,9 +428,10 @@
 
   .profile-img{
     margin: -1rem;
+    min-width: 96px;
   }
     
-  }
+  } /* end of responsive behavior*/
 
 
 .hero{

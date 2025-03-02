@@ -7,7 +7,7 @@ h1{
     color: var(--pop);
     line-height: 2.25rem;
     padding-block-end: 2.25rem;
-    border-bottom:1px dotted var(--callout);
+    /* border-bottom:1px dotted var(--callout); */
     margin-block-end:1.5rem;
   }
 

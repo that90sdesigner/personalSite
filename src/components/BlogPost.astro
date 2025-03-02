@@ -1,5 +1,6 @@
 ---
-/*  this component lists all the blog posts. */
+// blogpost.astro
+/* this component lists all the blog posts. */
 import '../styles/global.css';
 const { date, url, title } = Astro.props;
 // imports all files that end with .md in content collection
@@ -8,18 +9,26 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatte
 
 ---
 
+<html lang="en">
+
+<body>
     <ul>
-        {allPosts.map((post) => 
-      
-            <article class="post-list">
-                <li>
-                <article class="post">
-                    <span class="post-list-date-stamp">{post.frontmatter.date}</span>
-                    <a href={post.url}><p class="post-title">{post.frontmatter.title}</p></a>
+        {allPosts.map((post) => {
+            const filename = post.file.split('/').pop().replace('.md', '');
+            return (
+                <article class="post-list">
+                    <li>
+                        <article class="post">
+                            <span class="post-list-date-stamp">{post.frontmatter.date}</span>
+                            <a href={post.url} transition:persist>
+                                <p class="post-title" transition:name={`post-title-${filename}`} transition:animate="fade">{post.frontmatter.title}</p>
+                            </a>
+                        </article>
+                    </li>
                 </article>
-            </li>
-            </article>
-      
-        )
-        }
-      </ul>
+            );
+        })}
+    </ul>
+</body>
+</html>
+
