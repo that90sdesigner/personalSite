@@ -20,55 +20,28 @@ const { frontmatter } = Astro.props;
 
 </head>
 
-
-
 <Layout/>
-
-
-
-
-
-
-
-
-
-
 
 <main>
 
+    <Header/>
 
+    <div class="breadcrumb">
 
+        <a href="/blog">← all posts</a>
 
+    </div>
 
-<Header/>
+    <div class="post-header">
 
-<div class="breadcrumb">
+        <p class="post-date-stamp">{frontmatter.date}</p>
 
-<a href="/blog">← all posts</a>
+        <h1>{frontmatter.title}</h1>
 
-</div>
+    </div>
 
+    <slot/>
 
-<div class="post-header">
-
-<p class="post-date-stamp">{frontmatter.date}</p>
-
-<h1>{frontmatter.title}</h1>
-
-</div>
-
-
-
-
-
-<slot/>
-
-
-
-<Footer/>
-
-
-
-
+    <Footer/>
 
 </main>
