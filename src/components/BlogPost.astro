@@ -21,7 +21,8 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatte
 <ul>
 
 
-{allPosts.map((post) =>
+{allPosts.map((post) => 
+   
 
 
 <article class="post-list">
@@ -32,7 +33,7 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatte
 
 <span class="post-list-date-stamp">{post.frontmatter.date}</span>
 
-<a href={post.url} transition:persist><p class="post-title">{post.frontmatter.title}</p></a>
+<a href={post.url}><p class="post-title">{post.frontmatter.title}</p></a>
 
 </article>
 
@@ -43,6 +44,5 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatte
 
 )
 
-}
 
 </ul>
