@@ -5,7 +5,10 @@ import '../styles/global.css';
 const { date, url, title } = Astro.props;
 // imports all files that end with .md in content collection
 const allPosts = await Astro.glob('../pages/posts/*.md');
-allPosts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatter.date));
+allPosts.sort((a, b) => {
+    if(!a.frontmatter.date || !b.frontmatter.date) return 0; //added defensive check.
+    return Date.parse(b.frontmatter.date) - Date.parse(a.frontmatter.date);
+});
 
 ---
 
@@ -14,14 +17,19 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatte
 <body>
     <ul>
         {allPosts.map((post) => {
-            const filename = post.file.split('/').pop().replace('.md', '');
+            let filename = ''; // Initialize filename.
+            if (post.file) { // Check if post.file exists.
+                filename = post.file.split('/').pop().replace('.md', '');
+            } else {
+                console.warn(`Post file is undefined for: ${post.frontmatter.title}`); //Log warning to help debug.
+            }
             return (
                 <article class="post-list">
                     <li>
                         <article class="post">
                             <span class="post-list-date-stamp">{post.frontmatter.date}</span>
                             <a href={post.url} transition:persist>
-                                <p class="post-title" transition:name={`post-title-${filename}`} transition:animate="fade">{post.frontmatter.title}</p>
+                                <p class="post-title" transition:name={`post-title-${filename}`}>{post.frontmatter.title}</p>
                             </a>
                         </article>
                     </li>
@@ -31,4 +39,3 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatte
     </ul>
 </body>
 </html>
-
