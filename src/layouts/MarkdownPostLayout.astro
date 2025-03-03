@@ -1,22 +1,19 @@
 ---
 
 import '../styles/global.css';
-
 import '../styles/blog.css';
-
 import Header from '../components/header.astro';
-
 import Layout from './Layout.astro';
-
 import Footer from '../components/footer.astro';
-
-const { frontmatter } = Astro.props;
+const { frontmatter, url } = Astro.props;
+import { ViewTransitions } from "astro:transitions";
 
 ---
 
 <head>
 
-<title>Shankar • {frontmatter.title}</title>
+    <title>Shankar • {frontmatter.title}</title>
+    <ViewTransitions />
 
 </head>
 
@@ -25,6 +22,8 @@ const { frontmatter } = Astro.props;
 <main>
 
     <Header/>
+
+
 
     <div class="breadcrumb">
 
