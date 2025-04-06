@@ -18,11 +18,6 @@ export async function GET(context) {
       }),
       ...post.data,
     })),
+    stylesheet: '/pretty-feed-v3.xsl', // Ensure this is accessible in "public/"
   });
 }
-
-rss({
-  // ex. use your stylesheet from "public/rss/styles.xsl"
-  stylesheet:'public/pretty-feed-v3.xsl',
-  // ...
-});
