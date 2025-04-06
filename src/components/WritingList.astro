@@ -1,0 +1,12 @@
+---
+import { getCollection } from 'astro:content';
+import '../styles/blog.css';
+import '../styles/global.css';
+const posts = await getCollection('writing');
+---
+<h1>My posts</h1>
+<ul>
+  {posts.map(post => (
+    <li><a href={`/writing/${post.id}`}>{post.data.title}</a></li>
+  ))}
+</ul>

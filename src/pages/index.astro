@@ -8,7 +8,12 @@ import { Image } from 'astro:assets';
 import myImage from "../assets/shankar_profile.jpg"; // import profile image
 ---
 
-
+<link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Shankar's Personal Site"
+    href={new URL("rss.xml", Astro.site)}
+/>
 
 <Layout title="Shankar UX">
 	<main>

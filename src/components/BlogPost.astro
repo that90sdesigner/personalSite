@@ -4,7 +4,7 @@
 
 import '../styles/global.css';
 const { date, url, title } = Astro.props;
-// imports all files that end with .md in content collection
+// imports all files that end with .md 
 const allPosts = await Astro.glob('../pages/posts/*.md');
 allPosts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatter.date));
 
