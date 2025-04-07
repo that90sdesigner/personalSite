@@ -4,7 +4,7 @@ import { defineCollection} from 'astro:content';
 import { rssSchema } from '@astrojs/rss';
 
 // 2. Import loader(s)
-import { glob, file } from 'astro/loaders';
+import { glob } from 'astro/loaders';
 
 // 3. Define your collection(s)
 const writing = defineCollection({  
