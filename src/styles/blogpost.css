@@ -85,3 +85,11 @@ em{
   font-family: 'safiroregular_italic', sans-serif;
   font-synthesis: none;
 }
+
+
+@media (max-width: 820px){
+    main{
+       padding-inline: 5vw;
+    }
+
+}

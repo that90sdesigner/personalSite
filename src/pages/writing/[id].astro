@@ -17,13 +17,15 @@ export async function getStaticPaths() {
 // 2. For your template, you can get the entry directly from the prop
 const { post } = Astro.props;
 const { Content } = await render(post);
-
 ---
 
 <main>
   <Header />
   <Layout />
-    <p class="post-date">{post.data.pubDate}</p>
+  <p class="post-date">
+    <!-- Format pubDate to a more readable format, e.g., 'Dec 7, 2024' -->
+    {post.data.pubDate ? new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : 'Unknown Date'}
+  </p>
     <h1>{post.data.title}</h1>
   </div>
   <Content />

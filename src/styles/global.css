@@ -160,7 +160,6 @@
     .header {
       flex-direction: column; /* Stack elements vertically */
       align-items: center;
-
     }
   
     .logo {
