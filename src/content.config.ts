@@ -1,6 +1,6 @@
 
 // 1. Import utilities from `astro:content`
-import { defineCollection, z } from 'astro:content';
+import { defineCollection} from 'astro:content';
 import { rssSchema } from '@astrojs/rss';
 
 // 2. Import loader(s)
