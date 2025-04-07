@@ -1,0 +1,19 @@
+ul{
+    list-style-type: none;
+    padding-block-start: 4.5rem;
+    padding-block-end: 1rem;
+}
+
+.the-list-item p:hover, a:hover{
+    color: var(--pop);
+}
+
+.post-list-date{
+    color: var(--body);
+    font-family: 'Mate SC', serif;
+    font-size: .667rem;
+    text-transform: lowercase;
+    background: var(--tint);
+    padding-inline: .33rem;
+    border-left: 12px solid var(--pop);
+}

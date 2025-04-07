@@ -3,8 +3,9 @@ import { getCollection, render } from 'astro:content';
 import Header from '../../components/header.astro';
 import Layout from '../../layouts/Layout.astro';
 import Footer from '../../components/footer.astro';
-import '../../styles/global.css';
-import '../../styles/blog.css';
+import '../../styles/blogpost.css';
+import '../../styles/global.css'
+
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
   const posts = await getCollection('writing');
@@ -19,8 +20,12 @@ const { Content } = await render(post);
 
 ---
 
-<Header />
-<Layout />
-<h1>{post.data.title}</h1>
-<Content />
-<Footer />
+<main>
+  <Header />
+  <Layout />
+    <p class="post-date">{post.data.pubDate}</p>
+    <h1>{post.data.title}</h1>
+  </div>
+  <Content />
+  <Footer />
+</main>
