@@ -14,4 +14,4 @@ On weekdays, that is to the cafeteria at my workplace. I get a coffee, savor tha
 ## I do 5 pushups most mornings, right after I wake up.
 I have tried to get myself to do 30-45 mins of exercise in the morning but it is too much for me and I get anxious trying to stick to it. But five pushups is doable. Heck, even a 10 second plank goes a long way on some days. I pull out my yoga mat that I place at the foot of the bed, and stretch a little bit. Feeling the ground below me grounds me literally and figuratively. It helps. I feel slightly stronger and my heart rate elevates in a good way before I get going.
 
-I wish this killed the Anxiety altogether but no technique in does. When the world is spinning crazy, the only thing I can do is to try to be a little less crazy for a moment. 
+I wish this killed the Anxiety altogether but no technique does. When the world is spinning crazy, the only thing I can do is to try to be a little less crazy for a moment. 
