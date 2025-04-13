@@ -4,7 +4,7 @@ description: Two tactics that have helped me recently
 pubDate: Apr 13, 2025
 ---
 
-Morning Anxiety has plagued me for a long time And yes, my Anxiety is an Anxiety with a capital 'A'. I _rarely_ wake up feeling peaceful. However, when I see threads like [this one on reddit](https://www.reddit.com/r/Anxiety/comments/1jy6bk5/what_shuts_off_your_brain_for_morning_anxiety/), I feel less alone about my condition. 
+Morning Anxiety has plagued me for a long time. And yes, my Anxiety is an Anxiety with a capital 'A'. I _rarely_ wake up feeling peaceful. However, when I see threads like [this one on reddit](https://www.reddit.com/r/Anxiety/comments/1jy6bk5/what_shuts_off_your_brain_for_morning_anxiety/), I feel less alone about my condition. 
 
 I have tried a lot of things to deal with morning Anxiety. Two things that stuck for me and have helped a lot -
 
