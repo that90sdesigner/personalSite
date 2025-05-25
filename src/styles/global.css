@@ -213,7 +213,7 @@
     color: var(--pop);
     font-family: 'Gimlet Sans Variable Web', sans-serif;
     font-weight: 790;
-    text-transform: lowercase;
+    text-transform:none;
     font-variation-settings: 'opsz' 36;
     font-feature-settings: "ss04" on, "ss06" on, "calt", "liga", "rlig", "rvrn", "kern", "rclt";
     font-variation-settings: "ital" 1;
@@ -226,7 +226,6 @@
     text-wrap: pretty;
     opacity: 1;
     z-index: 2;
-    text-transform:lowercase;
   }
 
   .headline-blog-page{
