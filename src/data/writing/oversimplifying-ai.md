@@ -1,4 +1,12 @@
+---
+title: 'Oversimplifying AI'
+description: Looking through the hype
+pubDate: May 25, 2025
+---
+
 _This post is a thought exercise. I am not sure what you will get out of reading it but if you wish to see me think out loud, go ahead and read this. It will only waste 3 mins of your time._
+
+![A bright orange cursor set on an orange gradient background](/post-images/oversimplifying-ai.png)
 
 **TL;DR of what I blather on for the next 6 paragraphs:** AI is a writing and coding tool. The agentic AI tools will help us automate workflows. 
 
