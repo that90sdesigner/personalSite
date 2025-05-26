@@ -26,7 +26,7 @@ LLMs become useful because of words uttered or written by real people. Everythin
 There is a lot of slop out there right now. AI this, AI that. The slop that makes me cringe the most is image generation and video generation. I know there is some value to this but just because there is some value to an idea does not mean it is a good idea. 
 
 ## Agentic AI
-If generating slop is not the innovation we should be excited for, then what should we be excited for? AI or any automatic machine needs to be able to _do_ things. That means 
+If generating slop is not the innovation we should be excited for, then what should we be excited for? AI or any automatic machine needs to be able to _do_ things. I am a big Shortcuts user on Apple Platforms. The new wave of conversational AI makes me hopeful that automation for workflows will become more accessible. Generally, the automation / agentic application of AI excites me more than the generative applications.
 
 ## Is AI useful then?
 Most of these questions are for me more than the half-a-dozen people who read this blog. Hello, if you are still reading this. I got distracted. Is AI useful then? - It is, but it is not the most profound thing ever like CEOs would make you believe. That was when we got washing machines and refrigerators and whatever else helps you live life easily. The AI we are all talking about right now is _not that kind of doctor_. **AI is helpful** in the context of knowledge work and we have a lot of simplification to do. AI is not everything and it is probably more helpful to go touch some grass or grab a drink with a friend. 
