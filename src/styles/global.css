@@ -411,23 +411,25 @@
   }
 
   .intro{
-    grid-template-columns: 10fr 2fr;
+    grid-template-columns:9fr 1fr;
   }
 
   .intro-content{
     width: 100%;
+    margin-inline: auto;
     rotate: 0deg;
+    margin-block-start: 4rem;
   }
 
   .intro-headline{
     line-height: 120%;
-    width: 75%;
+    width: 85%;
     text-wrap: pretty;
   }
 
   .profile-img{
-    margin: -1rem;
     min-width: 96px;
+    rotate: 0deg;
   }
     
   } /* end of responsive behavior*/
