@@ -208,9 +208,9 @@
     font-feature-settings: "ss04" on, "ss06" on, "calt", "liga", "rlig", "rvrn", "kern", "rclt";
     font-variation-settings: "ital" 0;
     font-synthesis: none; 
-    font-size: clamp(2rem, 5vw, 3rem); 
+    font-size: 2.25rem; 
     letter-spacing: normal;
-    line-height: clamp(1.5rem, 5vw, 3rem); 
+    line-height: 2.25rem;
     padding-inline-end: .667rem;
     text-wrap: pretty;
     opacity: 1;
