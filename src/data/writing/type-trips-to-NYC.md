@@ -11,7 +11,7 @@ Every summer for the last 3 years, I have been visiting New York to attend [Typo
 
 There is something endearing and almost funny about hundreds of people gathering in Manhattan during a sultry June to obsess over fonts. I love New York and this festival is my biggest excuse to visit the east coast city.
 
-There is also something joyful about obsessing over a beautiful craft. I am no type designer, but I love type. I enjoy looking at a cool typographic poster and flip through a type specimen put together by a small foundry. I feel a spring in my step as I watch an inspiring talk or see others get excited about a typeface. Festivals like this evoke a sense of togetherness, a third place whose boundaries are defined by the shared interests of people. Post-covid, I have come to appreciate festivals like these and third places in general. 
+There is also something joyful about obsessing over a beautiful craft. I am no type designer, but I love type. I enjoy looking at a cool typographic poster and flip through a type specimen put together by a small foundry. I feel a spring in my step as I make my way around Manhattan, taking in all that summer in a city like New York has to offer. Festivals like this evoke a sense of togetherness, a third place whose boundaries are defined by the shared interests of people. Post-covid, I have come to appreciate festivals like these and third places in general. 
 
 Typographics is fun. It is inspiring, silly and energetic. Until it goes on, I hope to keep up my yearly summer tradition.
 
