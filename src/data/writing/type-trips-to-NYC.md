@@ -7,7 +7,7 @@ pubDate: July 4, 2025
 
 When I was a kid, I used to visit my uncle’s place for the summer. Once I started working, the tradition of a summer trip disappeared completely. For many years, I had simply forgotten what it was like to go somewhere over the summer. Summer is a hopeful yet uncomfortable season. The sun is out, it feels hot and the world feels alive like no other time of the year. 
 
-Every summer for the last 3 years, I have been visiting New York to attend [Typographics](https://2025.typgraphics.com), a design festival about type in the middle of June. When talking to people outside the design industry, I simply refer to it as a font festival. It is always in Cooper Square in Manhattan, which makes for a consistent and comforting feeling. 
+Every summer for the last 3 years, I have been visiting New York to attend [Typographics](https://2025.typographics.com), a design festival about type in the middle of June. When talking to people outside the design industry, I simply refer to it as a font festival. It is always in Cooper Square in Manhattan, which makes for a consistent and comforting feeling. 
 
 There is something endearing and almost funny about hundreds of people gathering in Manhattan during a sultry June to obsess over fonts. I love New York and this festival is my biggest excuse to visit the east coast city.
 
