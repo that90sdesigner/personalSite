@@ -4,6 +4,7 @@ desc: A summer tradition
 pubDate: July 4, 2025
 ---
 
+![A white wall of little brush lettered signs arranged in a collage](/post-images/lettering-collage-wall.png)
 
 When I was a kid, I used to visit my uncle’s place for the summer. Once I started working, the tradition of a summer trip disappeared completely. For many years, I had simply forgotten what it was like to go somewhere over the summer. Summer is a hopeful yet uncomfortable season. The sun is out, it feels hot and the world feels alive like no other time of the year. 
 
