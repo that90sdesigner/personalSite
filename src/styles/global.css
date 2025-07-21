@@ -96,6 +96,11 @@
   }
  
   
+  /*ul lists*/
+
+  .intro-li{
+    padding-inline-start: 2rem;
+  }
 
   /* paragraph padding */
 
