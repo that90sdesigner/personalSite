@@ -17,17 +17,17 @@ export async function getStaticPaths() {
 // 2. For your template, you can get the entry directly from the prop
 const { post } = Astro.props;
 const { Content } = await render(post);
+const postTransitionName = `post-title-${post.id}`;
 ---
 
-<main>
-  <Header />
-  <Layout />
-  <p class="post-date">
-    <!-- Format pubDate to a more readable format, e.g., 'Dec 7, 2024' -->
-    {post.data.pubDate ? new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : 'Unknown Date'}
-  </p>
-    <h1>{post.data.title}</h1>
-  </div>
-  <Content />
-  <Footer />
-</main>
+<Layout title={`Shankar • ${post.data.title}`}>
+  <main>
+    <Header />
+    <p class="post-date">
+      {post.data.pubDate ? new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : 'Unknown Date'}
+    </p>
+    <h1 style={`view-transition-name: ${postTransitionName};`}>{post.data.title}</h1>
+    <Content />
+    <Footer />
+  </main>
+</Layout>

@@ -5,19 +5,10 @@ import Footer from '../components/footer.astro';
 import WritingList from '../components/WritingList.astro';
 ---
 
-<head>
-  <title>Shankar's Writing</title>
-</head>
-
-<main>
-
-  <Layout/>
-
-  <Header/>  
-
-  <WritingList/>
-
-  <Footer/>
-
-</main>
-
+<Layout title="Shankar's Writing">
+  <main>
+    <Header/>  
+    <WritingList/>
+    <Footer/>
+  </main>
+</Layout>
